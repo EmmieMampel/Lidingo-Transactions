@@ -32,3 +32,6 @@ function show(data) {
     <td>${r.orgnr}</td>                 
     </tr>`;
     }
+
+    document.getElementById("Transactions").innerHTML = tab;
+} 
